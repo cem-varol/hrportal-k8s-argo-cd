@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - name: hrportal
-        image: hrportal
-        imagePullPolicy: Never
+        image: xsantq/hrportal:replaceImageTag
         ports:
         - containerPort: 8080
 ---
