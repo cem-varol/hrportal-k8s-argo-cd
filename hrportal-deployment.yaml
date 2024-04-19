@@ -19,6 +19,8 @@ spec:
         image: xsantq/hrportal:30
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: myregistrykey
 ---
 apiVersion: v1
 kind: Service
