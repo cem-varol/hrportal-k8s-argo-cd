@@ -13,13 +13,13 @@ Steps:
 Deatiled steps are: 
 
 1. Install the necessary Jenkins plugins:
-     1.1 Git plugin1.2 Maven Integration plugin
-     1.3 Pipeline plugin
-     1.4 Kubernetes Continuous Deploy plugin
+     - Git plugin1.2 Maven Integration plugin
+     - Pipeline plugin
+     - Kubernetes Continuous Deploy plugin
 
 3. Create a new Jenkins pipeline:
-     2.1 In Jenkins, create a new pipeline job and configure it with the Git repository URL for the Java application.
-     2.2 Add a Jenkinsfile to the Git repository to define the pipeline stages.
+     - In Jenkins, create a new pipeline job and configure it with the Git repository URL for the Java application.
+     - Add a Jenkinsfile to the Git repository to define the pipeline stages.
 
 4. Define the pipeline stages:
       Stage 1: Checkout the source code from Git.
